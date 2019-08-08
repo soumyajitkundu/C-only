@@ -9,7 +9,8 @@ int main()
 	{
 		scanf("%d",&arr[i]);
 	}
-	for(i=0;i<n/2;i++)
+	//reversing
+	for(i=0;i<(n/2);i++)
 	{
 		c=arr[i];
 		arr[i]=arr[n-i];
@@ -18,7 +19,7 @@ int main()
 	printf("The new array after reversing is");
 	for(i=1;i<=n;i++)
 	{
-		printf("%d\t",arr[i]);
+		printf("%d\t", arr[i]);
 	}
 	return 0;
 }
