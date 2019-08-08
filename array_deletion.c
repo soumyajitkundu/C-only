@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int arr[60],n,k,i;
+	int arr[10],n,k,i;
 	printf("Enter the total length of array");
 	scanf("%d",&n);
 	printf("Enter the values of the array");
@@ -18,7 +18,7 @@ int main()
 	printf("The new array after deletion is");
 	for(i=0;i<(n-1);i++)
 	{
-		printf("%d\t",arr[i]);
+		printf("%d\t", arr[i]);
 	}
 	return 0;
 }
