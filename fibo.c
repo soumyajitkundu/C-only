@@ -9,7 +9,7 @@ int fibo(int n)
 int main()
 {
 	int n,i,j=0;
-	printf("Enter the value");
+	printf("Enter the term upto which you want to print the Fibonacci Series");
 	scanf("%d",&n);
 	for(i=0;i<=n;i++)
 	{
