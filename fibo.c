@@ -11,7 +11,7 @@ int main()
 	int n,i,j=0;
 	printf("Enter the term upto which you want to print the Fibonacci Series");
 	scanf("%d",&n);
-	for(i=0;i<=n;i++)
+	for(i=0;i<n;i++)
 	{
 		printf("%d\t",fibo(j));
 		j++;
