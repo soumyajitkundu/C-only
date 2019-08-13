@@ -30,7 +30,6 @@ void push(int data)
 	{
 		top=top+1;
 		arrstack[top]=data;
-		printf("%d",data);
 	}
 }
 //pop
@@ -43,7 +42,7 @@ void POP()
 	{
 		data=arrstack[top];
 		top=top-1;
-		printf("\n\nDELETE ELEMENT--->%d\n",data);
+		printf("\n\nDELETED ELEMENT--->%d\n",data);
 	}
 	return(data);
 }
