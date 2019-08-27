@@ -68,7 +68,7 @@ void display()
 		for(i=front; i<=rear; i++)
 		{
 			if(rear!=-1)
-			printf("%d",CQueue[i]);
+			printf("%d ",CQueue[i]);
 		}
 	}
 	
